@@ -1,0 +1,190 @@
+header {
+  background-color: gainsboro;
+  color: #fff;
+  padding: 20px;
+  margin: 50px;
+  display: flex; /* Uso de flexbox para alinear elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+  font-weight: bold;
+  border: 1px solid #000;
+}
+
+/* @media (max-width: 1080px) {
+  header {
+    background-color: red;
+  }
+} */
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el contenido a la izquierda */
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los elementos de la lista a la izquierda */
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.logo img {
+  width: 150px;
+  height: 80px;
+  margin-right: 10px; /* Espacio entre el logotipo y la navegación */
+}
+
+nav {
+  flex-grow: 1; /* Hace que la navegación ocupe el espacio restante */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: red;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/*Beginning Container*/
+
+.general-container {
+  display: flex;
+  background-color: gainsboro;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 50px;
+}
+
+.left-part-bg {
+  flex: 1;
+}
+
+.left-title-bg {
+  /* border: 1px solid #000; */
+  font-size: 48px;
+}
+
+.left-paragraph-bg {
+  text-align: left;
+  /* border: 1px solid #000; */
+}
+
+#button-buy-bg {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  border: 2px solid #000000;
+}
+
+.left-part-bg button {
+  margin-top: 10px;
+}
+
+.right-part-bg {
+  flex: 1;
+}
+
+.right-part-bg img {
+  width: 80%;
+}
+/* Ajusta el tamaño de la imagen al 50% del contenedor */
+
+.img-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+/*Second Container*/
+
+.left-part-sc,
+.middle-part-sc,
+.right-part-sc {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/*-----------------Comprar page-----------------*/
+
+#left-title-bg-buy {
+  font-size: 40px;
+}
+
+#right-paragraph-bg {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#heart-car {
+  /* height: 50px; */
+  width: 130px;
+  padding-top: 10px;
+  padding-left: 250px;
+}
+
+/*-----------------Vender page-----------------*/
+
+#left-paragraph-bg-sell {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#heart-car-2 {
+  /* height: 50px; */
+  width: 130px;
+  padding-top: 10px;
+  padding-left: 250px;
+}
+
+/*-----------------Contacto Page-----------------*/
+
+.general-container-contacto {
+  display: flex;
+  background-color: gainsboro;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 50px;
+}
+
+#sub-container {
+  display: flex;
+  background-color: red;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 50px;
+  padding-right: 150px;
+}
