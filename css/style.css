@@ -13,7 +13,7 @@ header {
   header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: flex-start;
   }
 
   nav {
@@ -23,12 +23,30 @@ header {
   ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Alinea los elementos de la lista a la izquierda */
+    align-items: flex-start;
     padding: 0;
   }
 
   li {
     margin-bottom: 10px;
+  }
+  .general-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-part-bg {
+    text-align: center;
+  }
+
+  .right-part-bg {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .img-bg {
+    margin: 0 auto;
   }
 }
 
