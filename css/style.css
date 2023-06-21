@@ -169,6 +169,27 @@ nav ul li a:hover {
 
 /*-----------------Vender page-----------------*/
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-color: red;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
 #left-paragraph-bg-sell {
   display: flex;
   justify-content: center;
@@ -176,7 +197,6 @@ nav ul li a:hover {
 }
 
 #heart-car-2 {
-  /* height: 50px; */
   width: 130px;
   padding-top: 10px;
   padding-left: 250px;
