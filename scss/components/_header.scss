@@ -1,0 +1,42 @@
+header {
+  background-color: gainsboro;
+  color: #fff;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid #000;
+
+  .logo img {
+    width: 150px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  nav {
+    flex-grow: 1;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+
+      li {
+        display: inline;
+
+        a {
+          color: $tc;
+          padding: 40px;
+          text-decoration: none;
+          font-size: 20px;
+
+          &:hover {
+            background-color: #555;
+          }
+        }
+      }
+    }
+  }
+}
